@@ -1,14 +1,14 @@
 # skill3_7
 
-ต่อขา A1(L293D) เข้า PB0
+connect A1(L293D) to PB0
 
-ต่อขา A2(L293D) เข้า PB1
+connect A2(L293D) to PB1
 
-ต่อขา en1,2(L293D) เข้า OC0A
+connect en1,2(L293D) to OC0A
 
-ต่อขา DIR ลง GND 
+connect DIR to GND 
 
-ต่อขา OUT(AS5600) เข้า ADC0
+connect OUT(AS5600) to ADC0
 
-เก็บทั้งสามไฟล์นี้ไว้ในไฟล์เดียวกันแล้ว compile เป็น hexfiel และอัดลงบอร์ดได้เลย
+keeping these files in the same directory
 
