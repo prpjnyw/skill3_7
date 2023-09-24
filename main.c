@@ -8,6 +8,9 @@
 
 
 int main(void){
+	DDRD |= (1<<6);
+	DDRB |= (1<<0) | (1<<1);
+	
 	init_usart_printf(115200);
 	init_adc();
 	init_pwm(200);
