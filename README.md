@@ -1,5 +1,5 @@
 # skill3_7
-/*******USAGE*******/
+-----------USAGE------------
 
 connect A1(L293D) to PB0
 
